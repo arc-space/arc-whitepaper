@@ -1,0 +1,24 @@
+input: ./
+output: .retype
+
+url: whitepaper.arc76.space
+favicon: static/favicon.png
+
+branding:
+  title: Whitepaper
+  label: v1.0
+  logo: static/logo-dark.webp
+  logoDark: static/logo-light.webp
+
+footer:
+  copyright: "&copy; Copyright {{ year }}, [vecno.io](https://vecno.io/) – All rights reserved."
+
+meta:
+  title: " - Arc76 - explore, expand, and exploit"
+
+editor:
+  enabled: false
+exclude:
+  - "draft/"
+  - "readme.md"
+  
