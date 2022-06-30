@@ -27,14 +27,20 @@ Nothing but new places to explore and as such their journey begins. If they made
 
 Certain parts of a story need to be crafted, managed and played out.
 
-###### > Story Events
+###### > Story Tellers
 
 Disruptions and anomalies have been observed by some, but little is known about them by those who just arrived.
 
-> In certain cases regional or network sectors might have temporary restrictions placed on them, these allow people to play out specific events or story arcs. (If you are interested in organizing an event contact the team or the administrative sector to get you set up.)
+> In certain cases regional or network sectors might have temporary restrictions placed on them, these allow people to play out specific events or story arcs. (Partly automated, requires input and design.)
+
+###### > Game Masters
+
+The guiding hand to track time, space, and the rules that govern it. While contracts govern many things they are not suited to store or handle everything.
+
+> As with all distributed systems certain consensus systems need to be put in place to make sure there is an even playing field and to protect the system from those that seek to harm or exploit it at the cost of others. (Fully automated, think Validator Node with an RPC/API Endpoint)
 
 ###### > Partnership Guilds
 
 As Arcians learn more about the space around them they will find out that some people with specific markers and links in their memory banks end up roughly in the same region of space. If this is a good or bad thing for others we do not know, it does make it easier for old friends to reconnect.
 
-> Owners of regional sectors can restrict the space they own so only that only owners of other specific tokens or collections can spawn in that region of space. (Certain exceptions do apply; for example, Tile Zero and Network Sectors minted before the restriction is in place have the choice to opt-out)
+> Owners of regional sectors can restrict the space they own so only that only owners of other specific tokens or collections can spawn in that region of space. (Certain exceptions do apply; for example, Tile Zero and Network Sectors minted before the restriction is in place have the choice to opt-out.)
