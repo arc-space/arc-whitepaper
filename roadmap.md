@@ -1,18 +1,18 @@
 ---
-label: Roadmap
+label: Drops
 layout: default
-order: 4000
+order: 6000
 ---
 
-# The Roadmap
+# Token Drops
 
-We could note the technical milestones, marketing goals, and partnerships here as well, but to us, this is business as usual and should not be set in stone. The thing that matters the most is the path to follow, the result along the way, and its final destination.
+The primary goal of tokens is to define actors, items, nodes, and space itself. They are designed to give the player of our game access to certain parts and features of it while rewarding those that enabled the creation.
 
 ## Season 1 - Seeding Mints
 
 The system calls for a three-stage rollout. These 4 Acts are designed to bootstrap the story but also to give players time to explore the game, rules, and systems provided to them, all while they organize them selfs in a way that gives everyone the best possible setup to become a long-term actor in the game.
 
-<sub>*See" [Economics](/econimics) for utilities and effects.*</sub>
+<sub>*See" [Economy](/economy) for utilities and effects.*</sub>
 
 ---
 #### Act 1 - The Exploration of space
@@ -66,6 +66,6 @@ Extermination has come to claim its role, the form it takes or the time until it
 ---
 ## Season 2 - Adventures Ahead
 
-With all the technicals in place and the initial conflict behind us, it is time to look back at the events in the past. The goal of Season 2 will be to play on history and move the story forward. To this end, we will be looking at old and new players alike, based on their history and goals we move the story forward.
+With initial deployment done and the initial conflict behind us, it is time to look back at the events in the past. The goal of Season 2 will be to play on old events and move the story forward. To this end, we will be looking at old and new players alike; based on their history new adventures and events will be defined, prepared and executed.
 
-**To be determent**
+**To be determent and discussed**
