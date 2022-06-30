@@ -12,11 +12,12 @@ While not actively used for development (in most cases), the draft is where new 
 
 ## Contribute
 
-We always welcome community feedback or new ideas. Use GitHub discussions, join discord or tag us on Twitter!
+Community feedback or new ideas are always welcome. Use [GitHub Discussions](https://github.com/arc-space/arc-whitepaper/discussions), join [Discord](https://discord.gg/a9KYTc2Bj3) or tag us on [Twitter](https://twitter.com/Arc76_space)! Do note that this is Arc76 it got to the point where it is by keeping things light, simple, and focused. So don't be offended when complexity, long-running schemes or a combination of both get rejected.
 
-But do note that this is Arc76 it got to the point where it is by keeping things light, simple, and focused. So don't be offended when complexity, long-running schemes or a combination of both gets rejected.
-
-And above all it is about the game, not about the profits. In the time and space we are in this has to be said.
+```
+And above all it is about the game, not about the profits. 
+In the time and space we are in this has to be said.
+```
 
 ---
 
