@@ -36,7 +36,7 @@ But also you, the person reading this, looking to play.
 
 The pay-to-win and monetization aspects of gaming are becoming more abusive as time passes. In the past, there used to be a strong relationship between the players and those developing the games. One knew the other, what they expected, and what would be delivered.
 
-We want to modernize that connection again by directly serving and interacting with a global audience. With decentralized governance and trustless shared ownership, it has become possible to create systems and games that go well beyond your average Kickstarter or Marketing campaign.
+We want to modernize that connection by directly serving and interacting with a global audience. Showing off a different way of doing things, using decentralized governance and trustless shared ownership to create systems and games that go well beyond your average Kickstarter or Marketing campaign.
 
 This is the path we wish to explore!
 
@@ -49,7 +49,7 @@ Define the gamification and codification of relations between players, creators,
 
 ###### > Have fun
 
-Create a fun and challenging experience where the rivalry plays out by assigning time and resources to those you support. A game where the players set the direction of the universe they explore, expand, and create.
+Create a fun and challenging experience where the rivalry plays out by assigning time and resources to those you support. A game where the players set the direction of the universe they explore, expand, and ultimatly create as well.
 
 ###### > Thrive
 
