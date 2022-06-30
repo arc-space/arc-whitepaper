@@ -10,7 +10,7 @@ The primary goal of tokens is to define actors, items, nodes, and space itself. 
 
 ## Season 1 - Seeding Mints
 
-The system calls for a three-stage rollout. These 4 Acts are designed to bootstrap the story but also to give players time to explore the game, rules, and systems provided to them, all while they organize them selfs in a way that gives everyone the best possible setup to become a long-term actor in the game.
+The system calls for a three-stage roll-out. These 4 Acts are designed to bootstrap the story but also to give players time to explore the game, rules, and systems provided to them, all while they organise them self's in a way that gives everyone the best possible setup to become a long-term actor in the game.
 
 <sub>*See" [Economy](/economy) for utilities and effects.*</sub>
 
@@ -28,9 +28,9 @@ The division of space and initial assignment of sectors to the first Arcians to 
 * **In Closing:** Any sectors above the minimum supply that is not claimed before the end of the time frame defined above will be locked away as *The Unknown* until after *Stage 3*.
 
 ---
-#### Act 2 - The expantion of time
+#### Act 2 - The expansion of time
 
-With the stars mapped and most systems identified the next goals of Arcians are to find, exploit and manage the resources in the space around them. They will have to deice the best locations and safest travel routes before deciding where to build.
+With the stars mapped and most systems identified the next goals of Arcians is to find, exploit and manage the resources in the space around them. They will have to deice the best locations and safest travel routes before deciding where to build.
 
 > Minting: Core Infrastructure <br />
 > <sub>*Nodes: min 171.532 / max: 300.181*</sub> <br />
@@ -43,7 +43,7 @@ With the stars mapped and most systems identified the next goals of Arcians are 
 ---
 #### Act 3 - Creation of power
 
-With the core infrastructure in place, the focus shifts to exploring and exploiting *The Unknown*. As arcians start to reach out they may find out they were not alone and that they might need to organize to defend the claims they have made.
+With the core infrastructure in place, the focus shifts to exploring and exploiting *The Unknown*. As arcians start to reach out they may find out they were not alone and that they might need to organise to defend the claims they have made.
 
 > Minting: Actors, Guilds and Corporations <br />
 > <sub>*Storage: Max supply based on Stage 2*</sub> <br />

@@ -9,7 +9,7 @@ We are Arcians, we left the old universe behind looking for a future and our spa
 
 #### The Backstory
 
-Set in a science fiction universe eons into the future, Arc76 is one of the few Arks that remains active. An Ark itself is a megastructure built around a black hole that used to be the center of a galaxy. They are designed to act as memory storage for the collective memories of all those who inhabit its virtual realms.
+Set in a science fiction universe eons into the future, Arc76 is one of the few Arks that remains active. An Ark itself is a mega-structure built around a black hole that used to be the center of a galaxy. They are designed to act as memory storage for the collective memories of all those who inhabit its virtual realms.
 
 Parts of the galaxy have been consumed in the construction of the ark but most of it has been shifted into energy by the black hole to power the structure and the individuals within. Everyone can feel that the end is closing in; as matter becomes scares time seems to slow down. When it finally runs out no new memories can be created, no new actions can be taken, and the Ark will freeze as time just stops.
 
@@ -44,3 +44,6 @@ The guiding hand to track time, space, and the rules that govern it. While contr
 As Arcians learn more about the space around them they will find out that some people with specific markers and links in their memory banks end up roughly in the same region of space. If this is a good or bad thing for others we do not know, it does make it easier for old friends to reconnect.
 
 > Owners of regional sectors can restrict the space they own so only that only owners of other specific tokens or collections can spawn in that region of space. (Certain exceptions do apply; for example, Tile Zero and Network Sectors minted before the restriction is in place have the choice to opt-out.)
+
+---
+`Roles to be filled, but only by those who love to play.`

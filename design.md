@@ -8,7 +8,7 @@ order: 4000
 
 While the full game design falls outside the scope of this document, there are a couple of things worth mentioning.
 
-Recap the gameplay loop: explore, expand, exploit, and exterminate. Where the players explore the region of space they occupy to find points of interest they can expand into or simply exploit, while doing so they might have to exterminate any threads or competition they come across 
+Recap the game play loop: explore, expand, exploit, and exterminate. Where the players explore the region of space they occupy to find points of interest they can expand into or simply exploit, while doing so they might have to exterminate any threads or competition they come across 
 
 All these actions are designed to follow simple rules that could be played as a TTRPPG, simple attributes and dice rolls determine the outcome. Skill is in assessing the situation and making the correct action calls combined with a bit of lock.
 
@@ -21,7 +21,7 @@ At the start of a round, both Players and the GMs will publish a hash of random 
 
 The result is that everyone can use the published hashes to verify the seed values and then replay the list of actions taken to verify the results. Even the contracts responsible for managing outcomes of events.
 
-A secure, trustless, and verifiable dice rolling system with minimal on-chain events.
+A secure, trust-less, and verifiable dice rolling system with minimal on-chain events.
 
 ---
 #### Expanding Space
@@ -41,8 +41,7 @@ Gathering random resources can be time-consuming and dangerous if not done with 
 ---
 #### Extermination Space
 
-Extermination can be violent and rough. But it can also be in the form of neglect and decay. Starving regions of space from required resources might lead to infrastructure collapse and loss of value. Better not to anger your neighbors as hostile expansions and takeovers might be a real thing.
+Extermination can be violent and rough. But it can also be in the form of neglect and decay. Starving regions of space from required resources might lead to infrastructure collapse and loss of value. Better not to anger your neighbours as hostile expansions and takeovers might be a real thing.
 
 ---
-
-> No matter what action it is, dice will roll and heads might follow.
+`No matter what action it is, dice will roll and heads may follow.`
