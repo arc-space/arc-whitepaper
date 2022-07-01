@@ -24,22 +24,22 @@ The result is that everyone can use the published hashes to verify the seed valu
 A secure, trust-less, and verifiable dice rolling system with minimal on-chain events.
 
 ---
-#### Expanding Space
+#### Expand
 
-Before exploration can start the layout needs to be defined, as actors mint their sections of space decisions are made and dice are rolled to define what can be found where and how things link up.
+Before exploration can start the space needs to be defined, as actors mint their sections of space decisions are made and dice are rolled to define what can be found where and how things link up.
 
 ---
-#### Exploring Space
+#### Explore
 
 Exploration can best be described as a hex crawl, it mixes standard 4x movement with some TTRPG rules. Every time a player enters a new time he selects the action to perform and then rolls the dice to determine the outcome of the move.
 
 ---
-#### Exploiting Space
+#### Exploite
 
 Gathering random resources can be time-consuming and dangerous if not done with care or protection around. The more entrepreneurial spirits among the Arcians will set up infrastructure to harvest the resources around them and encourage safe passage for trade routes.
 
 ---
-#### Extermination Space
+#### Exterminate
 
 Extermination can be violent and rough. But it can also be in the form of neglect and decay. Starving regions of space from required resources might lead to infrastructure collapse and loss of value. Better not to anger your neighbours as hostile expansions and takeovers might be a real thing.
 

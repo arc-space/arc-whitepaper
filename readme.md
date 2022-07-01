@@ -1,10 +1,10 @@
 # Arc76 - Whitepaper
 
-The document aims to state the intent and reasoning behind the project and the game that is Arc76. This docuament is a living world built by and for the community; it will always be a work in progress. To track where we came from and where we are going; two versions exist:
+The document aims to state the intent and reasoning behind the project and the game that is Arc76. This document is a living world built by and for the community; it will always be a work in progress. To track where we came from and where we are going; two versions exist:
 
 ###### > Current Version
 
-A working versio. A base for designers and builders to work off when implementing or expanding parts of the game.
+A working version. A base for designers and builders to work off when implementing or expanding parts of the game.
 
 ###### > Next Draft
 
