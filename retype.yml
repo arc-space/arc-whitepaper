@@ -6,7 +6,7 @@ favicon: static/favicon.png
 
 branding:
   title: Whitepaper
-  label: v1.0
+  label: draft
   logo: static/logo-dark.webp
   logoDark: static/logo-light.webp
 
@@ -15,6 +15,10 @@ footer:
 
 meta:
   title: " - Arc76 - explore, expand, and exploit"
+
+links:
+  - text: Up for Discussion
+    link: https://github.com/arc-space/arc-whitepaper/discussions
 
 editor:
   enabled: false
