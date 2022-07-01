@@ -6,11 +6,13 @@ order: 500
 
 # Conclusion
 
-#### The Goal
+As a team, we hope to sell out Act 1, but are set to go with less if needed. Act 2 is designed to boost the initial budgets but also to provide longer-term revenue as the community grows and expands during the first year.
 
-With the initial sales in Act 1 and 2 the team hopes to secure funding to bring a few more members on board while ensuring them a runway of 12 months or more.
+#### The Plan
 
-At the same time, providing support to active players and early adopters through royalties on mints and sales so they get to set up shop and play along as the events that will define Season 2 and those after unfold.
+Use the initial budget from Act 1 and 2 to ensure them a runway of 12 months or more. If that goes well we aim to onboard a few more members to focus on graphics and the front-end, but as with any TTRPG, text and a vivid imagination are all we need to keep moving.
+
+At the same time, providing support to active players and early adopters through royalties on mints and sales so they get to set up shop and play along while the events that will define Season 2 unfold.
 
 Setup and connect, bunker down for the long run as the universe will not be conquered overnight.
 
