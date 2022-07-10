@@ -6,7 +6,7 @@ favicon: static/favicon.png
 
 branding:
   title: Whitepaper
-  label: draft
+  label: WIP
   logo: static/logo-dark.webp
   logoDark: static/logo-light.webp
 
