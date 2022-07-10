@@ -6,42 +6,115 @@ order: 4000
 
 # Game Design
 
-While the full game design falls outside the scope of this document, there are a couple of things worth mentioning.
+> *Game concepts that define and interact with the token economy.*
 
-Recap the game play loop: explore, expand, exploit, and exterminate. Where the players explore the region of space they occupy to find points of interest they can expand into or simply exploit, while doing so they might have to exterminate any threads or competition they come across 
+In short, the main gameplay loop follows: explore, expand, exploit, and exterminate. The players take actions to explore a region of space, with the goal to find points of interest that they can exploit, expand into, or just sell. While doing so they might encounter threads or competition they have to exterminate or can try to avoid.
 
-All these actions are designed to follow simple rules that could be played as a TTRPPG, simple attributes and dice rolls determine the outcome. Skill is in assessing the situation and making the correct action calls combined with a bit of lock.
-
----
-#### Rolling the Dice
-
-To secure the dice rolls Game Masters are used, as with Proof of Stake Validators, the Game Masters (GM) will provide access to the Near Network and the Extra Services needed to run the game. The GMs provide opposing rolls on actions taken and add extra entropy to prevent players from picking seeds that yield predictable results.
-
-At the start of a round, both Players and the GMs will publish a hash of random seeds value on-chain. These values combined with the opposing hashes are used to roll the dice for every action taken. At the end of a round, the seed values are revealed on-chain together with a step-by-step list of all the actions taken. 
-
-The result is that everyone can use the published hashes to verify the seed values and then replay the list of actions taken to verify the results. Even the contracts responsible for managing outcomes of events.
-
-A secure, trust-less, and verifiable dice rolling system with minimal on-chain events.
+All actions available in the game are designed to follow rules that could be played with some dice and paper, attributes and dice rolls determine the outcome. This results in gameplay that requires skill in assessing the situation and making the correct action calls combined with a bit of luck.
 
 ---
-#### Expand
+#### Game Loops
 
-Before exploration can start the space needs to be defined, as actors mint their sections of space decisions are made and dice are rolled to define what can be found where and how things link up.
+###### > Explore
 
----
-#### Explore
+Exploration can best be described as a [Hex Crawl](https://thealexandrian.net/wordpress/15156/roleplaying-games/game-structures-part-6-hexcrawls). The game world is split up into tiles using a hex grid. When players enter a new tile, dice are rolled, and info about the space around them is revealed. Based on this info, actions are to be taken, or one can try to move along.
 
-Exploration can best be described as a hex crawl, it mixes standard 4x movement with some TTRPG rules. Every time a player enters a new time he selects the action to perform and then rolls the dice to determine the outcome of the move.
+The system is designed to make travel and exploration exciting and eventful; but also defines the rules and state that governs the game. It provides both players and game masters the means to manipulate the space around them by interacting with it in certain ways.
 
----
-#### Exploite
+The state of a hex tile is defined by the sector it is in and what is around it. This state will hold lists of random encounters that are related to the zone that the tile is in. These lists can change based on the influence of other tiles and in turn that sphere of influence can be revealed or changed by actions or events.
+
+###### > Exploite
 
 Gathering random resources can be time-consuming and dangerous if not done with care or protection around. The more entrepreneurial spirits among the Arcians will set up infrastructure to harvest the resources around them and encourage safe passage for trade routes.
 
----
-#### Exterminate
+To exploit the space around you we define four main resource groups, Energy, Material, and Equipment. By linking these together an economy emerges.
 
-Extermination can be violent and rough. But it can also be in the form of neglect and decay. Starving regions of space from required resources might lead to infrastructure collapse and loss of value. Better not to anger your neighbours as hostile expansions and takeovers might be a real thing.
+```mermaid
+%%{init: { 'theme': 'forest' } }%%
+flowchart LR
+    Energy --> Material;
+    Material --> Equipment;
+    Material --> Infrastructure;
+    Equipment --> Infrastructure;
+    Equipment --> Material;
 
+    Infrastructure --> Equipment;
+    Infrastructure --> Energy;
+
+```
+
+###### > Expand
+
+Before exploration can start the space needs to be defined, as actors mint their sections of space decisions are made and dice are rolled to define what can be found where and how things link up. After the initial setup Arcians expand their influence by building out new infrastructure or conquering what already exists. 
+
+Both building out new infrastructure and conquering the old will come at a cost. This cost depends on the value of the node that is being built upon, or the infrastructure that is being conquered.
+
+Besides the exchange of value, resources will have to be spent to facilitate the move and make a node your own.
+
+###### > Exterminate
+
+Extermination can be violent and rough, but it can also happen through neglect and decay. Staying active or hiring staff is required.
+
+Starving regions of space of the resources required to maintain them can lead to infrastructure collapse. Cruel but effective and thus it is best not to anger your neighbors as you might depend on them.
+
+```mermaid
+%%{init: { 'theme': 'forest' } }%%
+stateDiagram
+  state Combat {
+    [*] --> Defeat
+    [*] --> Victory
+    Defeat --> Equipment: loss
+    Victory --> Equipment: gain
+  }
+
+  state Maintenance {
+    [*] --> Power
+    [*] --> Repair
+    [*] --> Neglect
+    Power --> Energy: cost
+    Repair --> Materials: cost
+    Neglect --> Infrastructure: loss
+  }
+```
 ---
+#### Rolling the Dice
+
+To keep actions cheap, secure, trust-less, and verifiable a dice rolling system with minimal on-chain events is employed. The system stores seeds for a [random number generator](https://www.geeksforgeeks.org/pseudo-random-number-generator-prng/) and tracks actions and counter actions taken by actors as required by the rules.
+
+To reduce on-chain events and create a smooth experience actions are grouped in rounds. These rounds can be defined as encounters, events, or other groups of actions like movement, exploration, or conversation.
+
+At the beginning of a round, hashes of seed values are stored on-chain so that the system can verify the initial state and results of actions taken after the encounter has played out.
+
+```mermaid
+%%{init: { 'theme': 'forest' } }%%
+sequenceDiagram
+  participant Master
+  participant Players
+  participant Contract
+  Players->>Contract: Create Round
+  Contract->>Master: New Round
+  Master->>Players: Round Hash
+  Master->>Contract: Round Hash
+  Players->>Contract: Seed Hash
+  Players->>Master: Seed Hash
+  Master-->>Players: Start Round
+  loop Action Group
+    Master->>Players: Send State
+    Players->>Master: Roll Action
+  end
+  Master->>Contract: Round State
+  Players->>Contract: State Hash
+```
+
+The master in the graph above refers to a 'Game Master' (GM). These are network nodes organized as Proof of Stake Validators to manage the game state, rounds, and general services required to interact with the game. (Ownership of sectors is the stake required to participate)
+
+These GMs also provide opposing rolls on actions taken and add extra entropy to prevent players from picking seeds that yield favorable results. Further securing the system and enabling trust-less single-play events and gameplay.
+
 `No matter what action it is, dice will roll and heads may follow.`
+
+---
+
+Ref.
+* [The Alexandrian - Hexcrawls - Game Structures](https://thealexandrian.net/wordpress/15156/roleplaying-games/game-structures-part-6-hexcrawls)
+* [Geeks for Geeks - Pseudo-Random Number Generator](https://www.geeksforgeeks.org/pseudo-random-number-generator-prng/)
+  
