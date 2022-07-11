@@ -40,7 +40,6 @@ flowchart LR
 
     Infrastructure --> Equipment;
     Infrastructure --> Energy;
-
 ```
 
 ###### > Expand

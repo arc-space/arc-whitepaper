@@ -10,7 +10,7 @@ As a team, we hope to sell out Act 1, but are set to go with less if needed. Act
 
 #### The Plan
 
-Use the initial budget from Act 1 and 2 to ensure them a runway of 12 months or more. If that goes well we aim to onboard a few more members to focus on graphics and the front-end, but as with any TTRPG, text and a vivid imagination are all we need to keep moving.
+Use the initial budget from Act 1 and 2 to ensure them a runway of 12 months or more. If the budget is available onboard a few more members to focus on graphics and the front-end, but as with any TTRPG, text and a vivid imagination are all we need to keep moving.
 
 At the same time, providing support to active players and early adopters through royalties on mints and sales so they get to set up shop and play along while the events that will define Season 2 unfold.
 
@@ -25,3 +25,13 @@ While most will choose to stay behind knowing that time will freeze. The questio
 ---
 
 Follow us on [Twitter](https://twitter.com/Arc76_space), look for us on [Discord](https://discord.gg/a9KYTc2Bj3), or use [Github Discussions](https://github.com/arc-space/arc-whitepaper/discussions) to provide feedback; above all get ready for a leap forward.
+
+---
+
+Build with a Modern Stack:
+
+* [Near Protocol](https://near.org/)
+* [Machinations](https://machinations.io/web3/)
+* [Svelte Kit](https://kit.svelte.dev/)
+* [BabylonJS](https://www.babylonjs.com/)
+
