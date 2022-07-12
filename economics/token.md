@@ -16,7 +16,7 @@ Arc76 is designed as a DAO that is managed by 4 or more stakeholder DAOs. The DA
 * The DAO owns The Story, The Universe, and all The Intellectual Property surrounding it.
 * Owners of sectors are granted the rights to use and expand on the assets owned by The DAO.
 
-### Distrebution
+### Distribution
 
 As the contract is deployed the core tile (tile zero) at l1 is minted and assigned to the core team. For every other tile that is minted, tile zero is auto-minted and assigned to the core team as well. In the end, the team receives less than 5% of all tiles and a 20% royalty fee on all minting fees.
 
