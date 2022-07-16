@@ -50,9 +50,9 @@ With the initial sectors minted by the team, people can start claiming their par
 
 The table below lists the token count per layer and the target price. Example: owner of an l3 tile has paid 3.5N and can sell 36 l4 tiles for 2.1N. If the owner follows target pricing and sells two of the tiles they break even.
 
-Every layer has an extra row of tiles added to the hex but all tiles have a target sales value of 126 NEAR.
+Every layer has an extra row of tiles added to the hex but all hexes have a target value of 126 NEAR. At heigher levels there is less supply but a higher base price, at lower levels this gets reveresed.
 
-| Layer | Tokens | Price |Tokens |
+| Layer | Tokens | Price | Total |
 |:----- | ------:| -----:|------:|
 | l2    |     18 |  7.00 | 126.0 |
 | l3    |     36 |  3.50 | 126.0 |

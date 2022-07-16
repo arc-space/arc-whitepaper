@@ -34,4 +34,3 @@ Build with a Modern Stack:
 * [Machinations](https://machinations.io/web3/)
 * [Svelte Kit](https://kit.svelte.dev/)
 * [BabylonJS](https://www.babylonjs.com/)
-

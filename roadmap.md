@@ -25,7 +25,7 @@ The division of space and initial assignment of sectors to the first Arcians to 
 
 * **Total Supply:** The maximum amount for this stage is set to 5.061 sectors, the minimum available supply will be set to 2.892 sectors.
 * **Time Frame:** The time to claim sectors will be set to 14 days, if the minimum supply is surpassed before the closing of this time frame it will be extended by another 14 days.
-* **In Closing:** Any sectors above the minimum supply that is not claimed before the end of the time frame defined above will be locked away as *The Unknown* until after *Stage 3*.
+* **In Closing:** Any sectors above the minimum supply that is not claimed before the end of the time frame defined above will be locked away as *The Unknown* until after *Act 3*.
 
 ---
 #### Act 2 - The expansion of time
@@ -36,8 +36,8 @@ With the stars mapped and most systems identified the next goals of Arcians is t
 > <sub>*Nodes: min 171.532 / max: 300.181*</sub> <br />
 > <sub>*(Sale of Utility Slots)*</sub>
 
-* **Total Supply:** The total supply is dependent on the number of sectors that get minted in *Stage 1*. The range is from 171.532 nodes once the minimal sectors are all minted up to 300.181 nodes.
-* **Time Frame:** The time to claim nodes and deploy core infrastructure will be 28 days. After that only newly claimed sectors below the minimal supply of *Stage 1* will receive 14 days to claim nodes and construct infrastructure at a discounted cost.
+* **Total Supply:** The total supply is dependent on the number of sectors that get minted in *Act 1*. The range is from 171.532 nodes once the minimal sectors are all minted up to 300.181 nodes.
+* **Time Frame:** The time to claim nodes and deploy core infrastructure will be 28 days. After that only newly claimed sectors below the minimal supply of *Act 1* will receive 14 days to claim nodes and construct infrastructure at a discounted cost.
 * **In Closing:** After this claiming nodes and developing infrastructure will still be possible but it will require time and resources to be completed.
 
 ---
@@ -49,7 +49,7 @@ With the core infrastructure in place, the focus shifts to exploring and exploit
 > <sub>*Storage: Max supply based on Stage 2*</sub> <br />
 > <sub>*(Creation of DAOs)*</sub>
 
-* **Total Supply:** The total supply has its limits defined by the local node configurations of *Stage 2* and can be different within sectors as defined in *Stage 1*.
+* **Total Supply:** The total supply has its limits defined by the local node configurations of *Act 2* and can be different within sectors as defined in *Act 1*.
 * **Time Frame:** The time to register extra Actors and DAOs is unlimited, but once a sector runs out only expansion or destruction of that what is will enable the creation of something new.
 
 ---
