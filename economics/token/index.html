@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.3.0.710915471820">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.711360505609">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 2.3.0">
+    <meta name="generator" content="Retype 2.4.0">
 
     <!-- Primary Meta Tags -->
     <title>Token Economy - Arc76 - explore, expand, and exploit</title>
@@ -31,11 +31,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/favicon.png" rel="icon" />
-    <link href="../../resources/css/retype.css?v=2.3.0.710915471820" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=2.4.0.711360505609" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../resources/js/config.js?v=2.3.0.710915471820" data-turbo-eval="false" defer></script>
-    <script type="text/javascript" src="../../resources/js/retype.js?v=2.3.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.3.0.710915471820" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=2.4.0.711360505609" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.4.0.711360505609" data-turbo-eval="false" defer></script>
 
     <style>
     .container {
@@ -187,23 +187,25 @@
         <span>Token Economy</span>
     </h1>
 </doc-anchor-target>
-<doc-anchor-target id="management">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#management">#</doc-anchor-trigger>
-        <span>Management</span>
-    </h2>
-</doc-anchor-target>
+<hr />
 <doc-anchor-target id="governance">
-    <h3>
+    <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#governance">#</doc-anchor-trigger>
         <span>Governance</span>
+    </h2>
+</doc-anchor-target>
+<hr />
+<doc-anchor-target id="design">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#design">#</doc-anchor-trigger>
+        <span>Design</span>
     </h3>
 </doc-anchor-target>
 <p>Arc76 is designed as a DAO that is managed by 4 or more stakeholder DAOs. The DAO controls the entry point to the universe; implemented as a smart contract that manages ownership of all sectors in the game and manages voting rights accordingly.</p>
 <ul>
-<li>The stakeholders of the DAO are the owners of l1 sectors within the Universe.</li>
-<li>The DAO owns The Story, The Universe, and all The Intellectual Property surrounding it.</li>
-<li>Owners of sectors are granted the rights to use and expand on the assets owned by The DAO.</li>
+<li>The stakeholders of the DAO are the managers of l1 sectors.</li>
+<li>The DAO owns The Brand, The Universe, and all surrounding it.</li>
+<li>Managers of sectors are provided with the rights to use and expand on the assets owned by the DAO.</li>
 </ul>
 <doc-anchor-target id="distribution">
     <h3>
@@ -211,7 +213,7 @@
         <span>Distribution</span>
     </h3>
 </doc-anchor-target>
-<p>As the contract is deployed the core tile (tile zero) at l1 is minted and assigned to the core team. For every other tile that is minted, tile zero is auto-minted and assigned to the core team as well. In the end, the team receives less than 5% of all tiles and a 20% royalty fee on all minting fees.</p>
+<p>As the contract is deployed the core tile (tile zero) at l1 is minted and assigned to the core team. For every other tile that is minted, tile zero is auto-minted and assigned to the core team as well.</p>
 <p>If all l3 tiles of the core tile are minted in the first 14 days, the team will open three more l1 tiles around the core tile and claim ownership of them as well. The remaining l3 tiles will stay locked unless all l3 tiles are sold within two weeks after minting starts.</p>
 <p>If this milestone is reached, the last three lvl1 tiles are minted and an extra 14 days is added to the initial 14-day minting window.</p>
 <div class="table-wrapper scrollbar overflow-hidden">
@@ -221,7 +223,7 @@
 <th style="text-align: left;">Layer</th>
 <th style="text-align: right;">Core Team</th>
 <th style="text-align: right;">%</th>
-<th style="text-align: right;">Comunity</th>
+<th style="text-align: right;">Community</th>
 <th style="text-align: right;">%</th>
 <th style="text-align: right;">Total</th>
 </tr>
@@ -278,32 +280,58 @@
 </tbody>
 </table>
 </div>
+<p><em>Take Note:</em></p>
 <ul>
-<li>Note: that the core team also manages The DAO until Act 4 starts and can utilize those funds when needed.</li>
+<li>The core team also manages the DAO until Act 4 starts and can utilize those funds as needed.</li>
+<li>The funds in l1 DAO are available to both team and community projects, voted on by l2 holders.</li>
 </ul>
+<hr />
 <doc-anchor-target id="incentives">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#incentives">#</doc-anchor-trigger>
         <span>Incentives</span>
     </h2>
 </doc-anchor-target>
+<hr />
 <doc-anchor-target id="services">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#services">#</doc-anchor-trigger>
         <span>Services</span>
     </h3>
 </doc-anchor-target>
-<p>Operative sectors are required to run game manager nodes. During most of season one, the core team will be managing these nodes. Eventually, as Act 4 commences and the community settles in these nodes will be sold in an auction to the community where l2 nodes vote to approve open bids.</p>
-<p>Events at l5 are designed to be logic tokens, Sector owners can sell them to creators that wish to publish content within the game. By publishing content for the game, creators can rent or sell these tokens to regional or local hubs and receive an indefinite 2 percent royalties on token rent or sales.</p>
+<doc-anchor-target id="player-guilds">
+    <h5>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#player-guilds">#</doc-anchor-trigger>
+        <span>Player Guilds</span>
+    </h5>
+</doc-anchor-target>
+<p>At l4 nodes are intended to support small communities. Guilds receive a part of the revenue generated by player interactions within the sphere of influence of the nodes they own.</p>
+<p>The funding provides managers the means to attract new players and grow. Or to organize events to keep current players active.</p>
+<doc-anchor-target id="content-creation">
+    <h5>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#content-creation">#</doc-anchor-trigger>
+        <span>Content Creation</span>
+    </h5>
+</doc-anchor-target>
+<p>Events at l5 are designed as tokens that execute logic and/or represent assets within the game. Registered nodes can sell these tokens to creators that wish to publish content or use it to make some content of their own.</p>
+<p>By publishing content for the game, creators of the content can rent or sell access to regional or local hubs. The creators also receive 2 percent perpetual royalties on token rent or sales.</p>
+<doc-anchor-target id="infrastructure-provider">
+    <h5>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#infrastructure-provider">#</doc-anchor-trigger>
+        <span>Infrastructure Provider</span>
+    </h5>
+</doc-anchor-target>
+<p>As with any online game, infrastructure is needed. The l1 tokens in coordination with l2 and creators will take on this role. Every l1 token can register a service node that will act as a game master, content host, and API Entry Point for the network.</p>
+<p>During most of season one, the core team will be managing these nodes. When Act 4 commences and the community settles in these nodes will be sold in an auction to the community where l2 nodes vote to approve open bids. (All but The Core, sector zero)</p>
 <doc-anchor-target id="mint-fees">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#mint-fees">#</doc-anchor-trigger>
         <span>Mint Fees</span>
     </h3>
 </doc-anchor-target>
-<p>With the initial sectors minted by the team, people can start claiming their part of the space by minting the tokens. By minting a token they receive permission to set the price within their section of space and sell the minting rights of its tiles.</p>
+<p>When people can start claiming their part of the space by minting the sector tokens they become the manager of the DAO that governs that part of space. Managers can set the price, and the minting rights of tiles in the sector using a whitelist.</p>
 <p>The table below lists the token count per layer and the target price. Example: owner of an l3 tile has paid 3.5N and can sell 36 l4 tiles for 2.1N. If the owner follows target pricing and sells two of the tiles they break even.</p>
-<p>Every layer has an extra row of tiles added to the hex but all tiles have a target sales value of 126 NEAR.</p>
+<p>Every layer has an extra row of tiles added to the hex but all hexes have a target value of 126 NEAR. At higher layers, there is less supply but a higher base price, at lower layers this gets reversed.</p>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
@@ -311,7 +339,7 @@
 <th style="text-align: left;">Layer</th>
 <th style="text-align: right;">Tokens</th>
 <th style="text-align: right;">Price</th>
-<th style="text-align: right;">Tokens</th>
+<th style="text-align: right;">Total</th>
 </tr>
 </thead>
 <tbody>
@@ -348,11 +376,19 @@
 </tbody>
 </table>
 </div>
+<p><em>Payout:</em></p>
 <ul>
-<li>Owner of a sector has the option to manage a whitelist and limit sales to friends.</li>
-<li>90% of the mint cost is paid to the owner of a sector and 10% is paid out to The DAO.</li>
-<li>Prices above are targets set by the core team, owners of sectors can set their prices.</li>
-<li>Layer 5 are Events for creators, revenue on these provide long-term returns based on gameplay.</li>
+<li>70% is split between community DAOs that own the sector.</li>
+<li>30% goes to the DAOs managed by teams behind the project.</li>
+</ul>
+<p><em>On Mint:</em></p>
+<ul>
+<li>The manager of a sector has the option to manage a whitelist and limit sales to friends.</li>
+<li>Prices above are the base set by the core team; the managers of sectors can increase these prices.</li>
+</ul>
+<p><em>Take Note:</em></p>
+<ul>
+<li>Layer 5 are Events for creators; the revenue on these provide long-term returns based on gameplay.</li>
 <li>Layer 6 credits, not intended to be sold but available within a sector to be harvested and used.</li>
 </ul>
 <doc-anchor-target id="royalty-fees">
@@ -361,7 +397,7 @@
         <span>Royalty Fees</span>
     </h3>
 </doc-anchor-target>
-<p>Royalties are fees deducted from the final sales price on internal and open markets. The royalty is paid out by the owner to the layers above them as compensation for provided assets and services as agreed on in the contracts that manage token transfers.</p>
+<p>Royalties are fees deducted from the final sales price on internal and open markets. The royalty is paid out by the seller to the layers above them as compensation for provided assets and services as agreed on in the contracts that manage token transfers.</p>
 <p>The royalty fees and related payouts follow the table below.</p>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="compact">
@@ -371,6 +407,7 @@
 <th style="text-align: right;">Type</th>
 <th style="text-align: right;">Royalty</th>
 <th style="text-align: right;">Payouts</th>
+<th style="text-align: right;">Teams</th>
 </tr>
 </thead>
 <tbody>
@@ -379,41 +416,55 @@
 <td style="text-align: right;">Sector</td>
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
 </tr>
 <tr>
 <td style="text-align: left;">l2</td>
 <td style="text-align: right;">Sector</td>
+<td style="text-align: right;">2</td>
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">1</td>
 </tr>
 <tr>
 <td style="text-align: left;">l3</td>
 <td style="text-align: right;">Sector</td>
+<td style="text-align: right;">4</td>
 <td style="text-align: right;">2</td>
 <td style="text-align: right;">2</td>
 </tr>
 <tr>
 <td style="text-align: left;">l4</td>
 <td style="text-align: right;">Node</td>
-<td style="text-align: right;">4</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">2</td>
 <td style="text-align: right;">2</td>
 </tr>
 <tr>
 <td style="text-align: left;">l5</td>
 <td style="text-align: right;">Event</td>
-<td style="text-align: right;">6</td>
+<td style="text-align: right;">8</td>
 <td style="text-align: right;">-</td>
+<td style="text-align: right;">*</td>
 </tr>
 <tr>
 <td style="text-align: left;">l6</td>
 <td style="text-align: right;">Energy</td>
 <td style="text-align: right;">-</td>
 <td style="text-align: right;">-</td>
+<td style="text-align: right;">-</td>
 </tr>
 </tbody>
 </table>
 </div>
+<p><em>Royalty:</em></p>
 <ul>
+<li>50%-70% is paid out to community DAOs that own the sector.</li>
+<li>30%-50% goes to the DAOs managed by teams behind the project.</li>
+<li>Events are paid out to the community DAOs, with 2% to the creator.</li>
+</ul>
+<p><em>Take Note:</em></p>
+<ul>
+<li>The l1 tiles are owned by the core team; until they get sold in a private auction.</li>
 <li>Events can be hired or bought by nodes and regions to be employed in random encounter lists.</li>
 <li>Events and Energy are consumable resources where ownership expires or runs out, stacking has negative effects.</li>
 <li>Events and Energy can be traded within the game but not on the open markets as they are dynamic and decay in value.</li>
